@@ -16,6 +16,7 @@
  - git log: Shows the history of project commits
 
  - git branch: List branches
+ - git checkout: checkout a branch (update HEAD)
  - git checkout -b: Create a branch and then switch to it
 
 
