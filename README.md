@@ -18,6 +18,9 @@
  - git diff: Show the difference between commits, the working directory, and the staging area.
  - git checkout: Check out branch (update HEAD and apply changes to working directory)
 
+ - git stash: Stash changes from working directory
+ - git stash list: List stashes
+ - git stash pop: Apply stashed changes to working directory
 
 ## Commit messages
 
