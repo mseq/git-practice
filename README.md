@@ -24,6 +24,25 @@
  - git branch -c: Create a branch
  - git checkout: Check out (branchname), witching you to a branch
 
+ - git branch: List branches
+ - git checkout: checkout a branch (update HEAD)
+ - git checkout -b: Create a branch and then switch to it
+
+
+## What's a branch?
+
+A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we're "on"
+that branch. When we make a commit while we're on a branch, the branch is updated to
+ref(er) to the new commit.
+
+
+## What's a HEAD?
+
+HEAD is a ref(erence) to the "current" branch (or sometimes a commit... more on that
+later). Git commands like `status`, `log`, and `branch` use HEAD. `git checkout` 
+updates HEAD to ref(er) to a different branch.
+
+
 ## Commit messages
 
 Default editor is vim (in my case it is nano), and it can be changed
