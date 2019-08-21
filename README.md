@@ -14,6 +14,7 @@
  - git config: Set or Get configuration
 
  - git log: Shows the history of project commits
+ - git checkout: Check out branch (update HEAD and apply changes to working directory)
 
 
 ## Commit messages
