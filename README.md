@@ -15,6 +15,8 @@
 
  - git log: Shows the history of project commits
 
+ - git branch -c: Create a branch
+ - git checkout: Check out (branchname), witching you to a branch
 
 ## Commit messages
 
