@@ -14,6 +14,8 @@
  - git config: Set or Get configuration
 
  - git log: Shows the history of project commits
+ - git show: Show a single commit
+ - git diff: Show the difference between commits, the working directory, and the staging area.
  - git checkout: Check out branch (update HEAD and apply changes to working directory)
 
 
