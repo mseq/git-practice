@@ -21,6 +21,8 @@
  - git stash: Stash changes from working directory
  - git stash list: List stashes
  - git stash pop: Apply stashed changes to working directory
+ - git branch -c: Create a branch
+ - git checkout: Check out (branchname), witching you to a branch
 
 ## Commit messages
 
