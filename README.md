@@ -13,4 +13,19 @@
 
  - git config: Set or Get configuration
 
+ - git log: Shows the history of project commits
+
+
+## Commit messages
+
+Default editor is vim (in my case it is nano), and it can be changed
+ - `i` to enter *insert* mode inside vim
+ - Then type what you need as commit message
+ - `ESC` -> `:wq` -> `ENTER` to write the message and quit
+
+...At nano, use `CRTL+X` to quit, and confirm that you want to save the changes
+
+When writing the messages, avoid ending with `.`
+And use concise, good grammar and clear information upon the changes done.
+
 
