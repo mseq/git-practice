@@ -25,6 +25,7 @@
  - git remote -v: List remote repositories
  - git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
  - git fetch: Fetch changes from remote repository
+ - git pull: Fetch, and then merge
 
 
 ## What's a branch?
@@ -53,3 +54,12 @@ Default editor is vim (in my case it is nano), and it can be changed
 When writing the messages, avoid ending with `.`
 And use concise, good grammar and clear information upon the changes done.
 
+
+## What's a remote?
+
+A remote repo is one hosted somwhere other than our local machine. We can add remotes
+with `git remote add`, and set up *tracking branches* to track differences between our
+local and remote repositories.
+
+We push to remotes with `git push`, and fetch them with `git fetch`. We can also fetch 
+and merge in one command with `git pull`.
