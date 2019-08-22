@@ -4,9 +4,10 @@
 
  - git init: Create a repository
  - git status: Compare working directory, staging area and current branch
- - git add: Add changes from working directory to stating area
+ - git add: Add changes from working directory to staging area
  - git commit: Commit changes from staging area to current branch
  - git commit -m: Add the description on cmd without invoking the editor
+ - git commit -am: Add the changes to staging area, commit them, and add a description
  - git config: Set or Get configuration
  - git log: Shows the history of project commits
  - git show: Show a single commit
@@ -16,10 +17,13 @@
  - git stash list: List stashes
  - git stash pop: Apply stashed changes to working directory
  - git branch -c: Create a branch
- - git checkout: Check out (branchname), witching you to a branch
  - git branch: List branches
- - git checkout: checkout a branch (update HEAD)
+ - git checkout: Check out (branchname), witching you to a branch
  - git checkout -b: Create a branch and then switch to it
+ - git merge: Merge changes from different branches
+ - git remote add <remote> <url>: Add a new <remote> at <url>
+ - git remote -v: List remote repositories
+ - git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
 
 
 ## What's a branch?
