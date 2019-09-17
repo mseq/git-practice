@@ -26,6 +26,8 @@
  - git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
  - git fetch: Fetch changes from remote repository
  - git pull: Fetch, and then merge
+ - git rm -r --cached ./ : Untrack files without removing them from working dir
+ - git add ./ : Add files again to staging area
 
 
 ## What's a branch?
